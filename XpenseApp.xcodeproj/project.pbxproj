@@ -7,28 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0049461FC47D07006C3B6F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0049451FC47D07006C3B6F /* Icon.png */; };
+		FC3950FA1FE9BEA3001BA2B6 /* EditExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3950F91FE9BEA3001BA2B6 /* EditExpenseViewController.m */; };
+		FC3950FD1FE9BF20001BA2B6 /* ExpenseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3950FC1FE9BF20001BA2B6 /* ExpenseObject.m */; };
 		FC65D91A1FA2057700B61411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65D9191FA2057700B61411 /* main.m */; };
 		FC65D91D1FA2057700B61411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65D91C1FA2057700B61411 /* AppDelegate.m */; };
-		FC65D9201FA2057700B61411 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65D91F1FA2057700B61411 /* FirstViewController.m */; };
-		FC65D9231FA2057700B61411 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65D9221FA2057700B61411 /* SecondViewController.m */; };
 		FC65D9261FA2057700B61411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC65D9241FA2057700B61411 /* Main.storyboard */; };
 		FC65D9281FA2057800B61411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC65D9271FA2057800B61411 /* Assets.xcassets */; };
 		FC65D92B1FA2057800B61411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC65D9291FA2057800B61411 /* LaunchScreen.storyboard */; };
+		FC65D93C1FA8CE2700B61411 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65D93B1FA8CE2700B61411 /* ProfileViewController.m */; };
+		FC65D9451FA8CF8C00B61411 /* ExpensesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65D9441FA8CF8C00B61411 /* ExpensesTableViewController.m */; };
+		FC65D9481FA8CFEF00B61411 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65D9471FA8CFEF00B61411 /* SettingsViewController.m */; };
+		FCA4FDA41FDDBF210024AB4A /* ExpenseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA4FDA31FDDBF210024AB4A /* ExpenseCell.m */; };
+		FCB98A3A1FC0DA0F0065639A /* StartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98A391FC0DA0F0065639A /* StartUpViewController.m */; };
+		FCB98A3E1FC0ED290065639A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98A3D1FC0ED290065639A /* LoginViewController.m */; };
+		FCB98A411FC0ED610065639A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98A401FC0ED610065639A /* RegisterViewController.m */; };
+		FCD5E2301FE0344A00FC20F6 /* AddExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD5E22F1FE0344A00FC20F6 /* AddExpenseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC0049451FC47D07006C3B6F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FC3950F81FE9BEA3001BA2B6 /* EditExpenseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditExpenseViewController.h; sourceTree = "<group>"; };
+		FC3950F91FE9BEA3001BA2B6 /* EditExpenseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditExpenseViewController.m; sourceTree = "<group>"; };
+		FC3950FB1FE9BF20001BA2B6 /* ExpenseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpenseObject.h; sourceTree = "<group>"; };
+		FC3950FC1FE9BF20001BA2B6 /* ExpenseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpenseObject.m; sourceTree = "<group>"; };
 		FC65D9151FA2057700B61411 /* XpenseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XpenseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC65D9191FA2057700B61411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC65D91B1FA2057700B61411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC65D91C1FA2057700B61411 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC65D91E1FA2057700B61411 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FC65D91F1FA2057700B61411 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		FC65D9211FA2057700B61411 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FC65D9221FA2057700B61411 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FC65D9251FA2057700B61411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC65D9271FA2057800B61411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC65D92A1FA2057800B61411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC65D92C1FA2057800B61411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC65D93A1FA8CE2700B61411 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
+		FC65D93B1FA8CE2700B61411 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
+		FC65D9431FA8CF8C00B61411 /* ExpensesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesTableViewController.h; sourceTree = "<group>"; };
+		FC65D9441FA8CF8C00B61411 /* ExpensesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesTableViewController.m; sourceTree = "<group>"; };
+		FC65D9461FA8CFEF00B61411 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FC65D9471FA8CFEF00B61411 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		FCA4FDA21FDDBF210024AB4A /* ExpenseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpenseCell.h; sourceTree = "<group>"; };
+		FCA4FDA31FDDBF210024AB4A /* ExpenseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpenseCell.m; sourceTree = "<group>"; };
+		FCB98A381FC0DA0F0065639A /* StartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUpViewController.h; sourceTree = "<group>"; };
+		FCB98A391FC0DA0F0065639A /* StartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUpViewController.m; sourceTree = "<group>"; };
+		FCB98A3B1FC0DCD80065639A /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		FCB98A3C1FC0ED290065639A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FCB98A3D1FC0ED290065639A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FCB98A3F1FC0ED610065639A /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FCB98A401FC0ED610065639A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		FCD5E22E1FE0344A00FC20F6 /* AddExpenseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddExpenseViewController.h; sourceTree = "<group>"; };
+		FCD5E22F1FE0344A00FC20F6 /* AddExpenseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddExpenseViewController.m; sourceTree = "<group>"; };
+		FCDE05631FE8207D005229D4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,7 @@
 			children = (
 				FC65D9171FA2057700B61411 /* XpenseApp */,
 				FC65D9161FA2057700B61411 /* Products */,
+				FCDE05621FE8207D005229D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,17 +90,34 @@
 		FC65D9171FA2057700B61411 /* XpenseApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC65D93A1FA8CE2700B61411 /* ProfileViewController.h */,
+				FC65D93B1FA8CE2700B61411 /* ProfileViewController.m */,
 				FC65D91B1FA2057700B61411 /* AppDelegate.h */,
 				FC65D91C1FA2057700B61411 /* AppDelegate.m */,
-				FC65D91E1FA2057700B61411 /* FirstViewController.h */,
-				FC65D91F1FA2057700B61411 /* FirstViewController.m */,
-				FC65D9211FA2057700B61411 /* SecondViewController.h */,
-				FC65D9221FA2057700B61411 /* SecondViewController.m */,
 				FC65D9241FA2057700B61411 /* Main.storyboard */,
 				FC65D9271FA2057800B61411 /* Assets.xcassets */,
 				FC65D9291FA2057800B61411 /* LaunchScreen.storyboard */,
 				FC65D92C1FA2057800B61411 /* Info.plist */,
 				FC65D9181FA2057700B61411 /* Supporting Files */,
+				FC65D9431FA8CF8C00B61411 /* ExpensesTableViewController.h */,
+				FC65D9441FA8CF8C00B61411 /* ExpensesTableViewController.m */,
+				FC65D9461FA8CFEF00B61411 /* SettingsViewController.h */,
+				FC65D9471FA8CFEF00B61411 /* SettingsViewController.m */,
+				FCB98A381FC0DA0F0065639A /* StartUpViewController.h */,
+				FCB98A391FC0DA0F0065639A /* StartUpViewController.m */,
+				FCB98A3B1FC0DCD80065639A /* Utils.h */,
+				FCB98A3C1FC0ED290065639A /* LoginViewController.h */,
+				FCB98A3D1FC0ED290065639A /* LoginViewController.m */,
+				FCB98A3F1FC0ED610065639A /* RegisterViewController.h */,
+				FCB98A401FC0ED610065639A /* RegisterViewController.m */,
+				FCA4FDA21FDDBF210024AB4A /* ExpenseCell.h */,
+				FCA4FDA31FDDBF210024AB4A /* ExpenseCell.m */,
+				FCD5E22E1FE0344A00FC20F6 /* AddExpenseViewController.h */,
+				FCD5E22F1FE0344A00FC20F6 /* AddExpenseViewController.m */,
+				FC3950F81FE9BEA3001BA2B6 /* EditExpenseViewController.h */,
+				FC3950F91FE9BEA3001BA2B6 /* EditExpenseViewController.m */,
+				FC3950FB1FE9BF20001BA2B6 /* ExpenseObject.h */,
+				FC3950FC1FE9BF20001BA2B6 /* ExpenseObject.m */,
 			);
 			path = XpenseApp;
 			sourceTree = "<group>";
@@ -79,9 +125,18 @@
 		FC65D9181FA2057700B61411 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC0049451FC47D07006C3B6F /* Icon.png */,
 				FC65D9191FA2057700B61411 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCDE05621FE8207D005229D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE05631FE8207D005229D4 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0049461FC47D07006C3B6F /* Icon.png in Resources */,
 				FC65D92B1FA2057800B61411 /* LaunchScreen.storyboard in Resources */,
 				FC65D9281FA2057800B61411 /* Assets.xcassets in Resources */,
 				FC65D9261FA2057700B61411 /* Main.storyboard in Resources */,
@@ -156,10 +212,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC65D9231FA2057700B61411 /* SecondViewController.m in Sources */,
+				FC3950FA1FE9BEA3001BA2B6 /* EditExpenseViewController.m in Sources */,
+				FCA4FDA41FDDBF210024AB4A /* ExpenseCell.m in Sources */,
 				FC65D91D1FA2057700B61411 /* AppDelegate.m in Sources */,
-				FC65D9201FA2057700B61411 /* FirstViewController.m in Sources */,
+				FC65D93C1FA8CE2700B61411 /* ProfileViewController.m in Sources */,
+				FCB98A3A1FC0DA0F0065639A /* StartUpViewController.m in Sources */,
+				FC3950FD1FE9BF20001BA2B6 /* ExpenseObject.m in Sources */,
+				FC65D9481FA8CFEF00B61411 /* SettingsViewController.m in Sources */,
+				FCB98A3E1FC0ED290065639A /* LoginViewController.m in Sources */,
 				FC65D91A1FA2057700B61411 /* main.m in Sources */,
+				FC65D9451FA8CF8C00B61411 /* ExpensesTableViewController.m in Sources */,
+				FCB98A411FC0ED610065639A /* RegisterViewController.m in Sources */,
+				FCD5E2301FE0344A00FC20F6 /* AddExpenseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +384,7 @@
 				FC65D9311FA2057800B61411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
